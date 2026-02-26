@@ -18,6 +18,19 @@ It combines a physical keypad interface with USB HID keyboard emulation to launc
 ![Hackpad Desk](images/Hackpad-desk.jpg)
 ![Hackpad Buttons](images/Hackpad-buttons.jpg)
 
+## How It Works
+
+1. User enters target IPv4 address.
+2. Optional TCP port can be specified.
+3. One or more tools are selected.
+4. Hackpad opens a terminal (Hyprland Super+Enter).
+5. The selected commands are typed automatically via USB HID.
+
+No software is installed on the target system — the device acts as a keyboard.
+
+---
+
+
 ## Physical Key Layout
 
 The keypad is physically labeled for intuitive operation (Mode, Clear, Port, Backspace, Enter, Opt1–Opt3, Hack).  
@@ -89,17 +102,6 @@ The keypad is physically labeled for intuitive operation:
 | Opt3 | g | Toggle tool 3 (Gobuster / theHarvester) |
 | Hack | h | Execute selected tools |
 
-## How It Works
-
-1. User enters target IPv4 address.
-2. Optional TCP port can be specified.
-3. One or more tools are selected.
-4. Hackpad opens a terminal (Hyprland Super+Enter).
-5. The selected commands are typed automatically via USB HID.
-
-No software is installed on the target system — the device acts as a keyboard.
-
----
 
 ## Building / Flashing
 
