@@ -7,6 +7,36 @@ It combines a physical keypad interface with USB HID keyboard emulation to launc
 
 ---
 
+## Photos
+
+**Top view (key labels + UI):**
+
+![Hackpad Top](images/Hackpad-top.jpg)
+
+**More angles:**
+
+![Hackpad Buttons](images/Hackpad-buttons.jpg)
+![Hackpad Side](images/Hackpad-side.jpg)
+![Hackpad Desk](images/Hackpad-desk.jpg)
+
+## Physical Key Layout
+
+The keypad is physically labeled for intuitive operation (Mode, Clear, Port, Backspace, Enter, Opt1–Opt3, Hack).  
+Internally, the firmware maps these labels to key events as follows:
+
+| Button label | Firmware key | Function |
+|---|---:|---|
+| Mode | `M` | Switch between IP and Web tool banks |
+| Clear | `C` | Clear current input (IP/port) |
+| Port | `P` | Toggle between IP and Port edit mode |
+| Backspace | `B` | Delete last character |
+| Enter | `E` | Validate + save current input |
+| Opt1 | `n` | Toggle tool 1 (Nmap / sqlmap) |
+| Opt2 | `i` | Toggle tool 2 (Nikto / WhatWeb) |
+| Opt3 | `g` | Toggle tool 3 (Gobuster / theHarvester) |
+| Hack | `h` | Execute selected tools |
+
+
 ## Features
 
 - IPv4 and TCP port input via physical keypad
@@ -41,6 +71,24 @@ It combines a physical keypad interface with USB HID keyboard emulation to launc
 - USB connection to host machine
 
 ---
+
+## Physical Interface
+
+![Hackpad Top](images/hackpad-top.jpg)
+
+The keypad is physically labeled for intuitive operation:
+
+| Button label | Firmware key | Function |
+|---|---:|---|
+| Mode | M | Switch between IP and Web tool banks |
+| Clear | C | Clear current input (IP/port) |
+| Port | P | Toggle between IP and Port edit mode |
+| Backspace | B | Delete last character |
+| Enter | E | Save current input |
+| Opt1 | n | Toggle tool 1 (Nmap / sqlmap) |
+| Opt2 | i | Toggle tool 2 (Nikto / WhatWeb) |
+| Opt3 | g | Toggle tool 3 (Gobuster / theHarvester) |
+| Hack | h | Execute selected tools |
 
 ## How It Works
 
