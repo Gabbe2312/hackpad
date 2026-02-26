@@ -86,7 +86,7 @@ Internally, the firmware maps these labels to key events as follows:
 
 ## Physical Interface
 
-![Hackpad Top](images/Hackpad-top.jpg)
+![Hackpad Top](images/Hackpad-buttons.jpg)
 
 The keypad is physically labeled for intuitive operation:
 
