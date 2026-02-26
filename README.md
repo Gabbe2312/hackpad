@@ -9,8 +9,6 @@ It combines a physical keypad interface with USB HID keyboard emulation to launc
 
 ## Photos
 
-**Top view (key labels + UI):**
-
 ![Hackpad Top](images/Hackpad-top.jpg)
 
 **More angles:**
@@ -117,11 +115,38 @@ Upload via Arduino IDE.
 
 ---
 
-## Project Structure
-firmware/esp32/ → Main firmware (.ino)
-hardware/ → PCB and enclosure files
-docs/ → Documentation
+# Hardware 
 
+## Microcontroller
+- Arduino Pro Micro (ATmega32U4, 5V / 16MHz)
+
+## Display
+- 16x2 LCD Display
+- I2C Backpack (PCF8574, address 0x27)
+
+## Input System
+- 20x Mechanical switches (4x5 matrix)
+- 20x 1N4148 diodes
+- Handwired matrix
+
+## Enclosure
+- 3D printed case (PLA)
+- 3D printed keycaps with engraved labels
+
+## Additional
+- USB cable (Micro-USB)
+- Jumper wires
+
+## 3D Enclosure
+
+The 3D printable enclosure files are available in:
+
+hardware/enclosure/
+
+The design includes:
+- Main case
+- Top plate
+- Keycap set
 
 ## Roadmap
 
