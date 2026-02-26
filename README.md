@@ -139,6 +139,8 @@ Upload via Arduino IDE.
 
 ## 3D Enclosure
 
+![Hackpad Stl](images/Hackpad-stl.jpg)
+
 The 3D printable enclosure files are available in:
 
 hardware/enclosure/
