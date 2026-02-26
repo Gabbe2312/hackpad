@@ -14,10 +14,9 @@ It combines a physical keypad interface with USB HID keyboard emulation to launc
 ![Hackpad Top](images/Hackpad-top.jpg)
 
 **More angles:**
-
-![Hackpad Buttons](images/Hackpad-buttons.jpg)
 ![Hackpad Side](images/Hackpad-side.jpg)
 ![Hackpad Desk](images/Hackpad-desk.jpg)
+![Hackpad Buttons](images/Hackpad-buttons.jpg)
 
 ## Physical Key Layout
 
